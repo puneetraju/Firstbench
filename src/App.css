@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(249, 250, 251);
+  
+}
+.main-content {
+  margin: 24px 115px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+.main-content .fi{
+  margin-right: 6px;
+}

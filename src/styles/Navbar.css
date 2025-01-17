@@ -1,0 +1,85 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: rgb(48, 57, 71);
+  color: white;
+  height: 34px;
+  
+
+}
+.navbar .btn{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  gap: 4px;
+  margin-right: 25px;
+}
+.navbar .fi {
+  font-size: smaller;
+  margin-right: 5px;
+
+}
+.bell{
+  margin-left: 25px;
+ margin-right: -5px;
+ font-size: large;
+}
+
+.logo{
+  height: 35px;
+  width: 35px;
+
+}
+
+.prof-sec{
+  display: grid;
+  grid-template-columns: 24px 40px 22px;
+  align-items: center;
+
+  background-color: rgb(29, 38, 51);
+  padding: 3px;
+  border-radius: 5px;
+  height: 20px;
+  width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  
+
+}
+.profile-pic{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(248, 194, 179);
+  border-radius: 5px;
+  color: black;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+
+  
+
+}
+
+
+
+
+.fi-br-angle-small-down {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 13px;
+  
+
+}

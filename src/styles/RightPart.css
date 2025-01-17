@@ -1,0 +1,636 @@
+
+.right-area{
+  flex: 3;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+} 
+
+
+
+
+.right-area .upper-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 230px;
+  column-gap: 20px;
+}
+
+.right-area .upper-sec .box{
+  background-color: white;
+  border: 1.5px solid rgb(224, 226, 229);
+  border-radius: 10px;
+  padding: 6px 12px;
+  color: rgb(140, 147, 159);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+.right-area .upper-sec .box div{
+  display: flex;
+  align-items: center;
+  line-height: 13px;
+}
+
+.right-area .upper-sec .box div .fi-br-angle-square-down{
+  font-size: 13px;
+  padding-top: 4px ;
+}
+
+.right-area .middle-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.right-area .middle-sec .box-1 ,.box-2, .box-3, .box-4{
+  border: 1.5px solid rgb(224, 226, 229);
+  border-radius: 10px;
+  background-color: white;
+  color:rgb(140, 147, 159);
+  padding: 6px 8px;
+}
+
+.right-area .middle-sec .box-1 > div:nth-of-type(1),
+.right-area .middle-sec .box-2 > div:nth-of-type(1),
+.right-area .middle-sec .box-3 > div:nth-of-type(1),
+.right-area .middle-sec .box-4 > div:nth-of-type(1){
+  display: flex;
+  
+}
+
+.right-area .middle-sec .box-1 .heading-text,
+.right-area .middle-sec .box-2 .heading-text,
+.right-area .middle-sec .box-3 .heading-text,
+.right-area .middle-sec .box-4 .heading-text {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+
+}
+
+.right-area .middle-sec .box-1 > span{
+  font-size: 11px;
+  color: #000;
+  font-weight: 500;
+
+}
+
+.right-area .middle-sec .box-1 .tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 6px;
+  font-weight: 600;
+  margin: 7px 0;
+  padding: 0;
+}
+
+.right-area .middle-sec .box-1 .tags span{
+  border-radius: 10px;
+  background-color: aqua;
+  color: white;
+  padding: 4px 7px;
+
+}
+.right-area .middle-sec .box-1 .tags span:nth-of-type(1),
+.right-area .middle-sec .box-1 .tags span:nth-of-type(3),
+.right-area .middle-sec .box-1 .tags span:nth-of-type(5),
+.right-area .middle-sec .box-1 .tags span:nth-of-type(9){
+  background-color: rgb(28, 185, 180);
+}
+.right-area .middle-sec .box-1 .tags span:nth-of-type(2),
+.right-area .middle-sec .box-1 .tags span:nth-of-type(8){
+  background-color: rgb(234, 179, 8);
+}
+.right-area .middle-sec .box-1 .tags span:nth-of-type(4),
+.right-area .middle-sec .box-1 .tags span:nth-of-type(7){
+  background-color: rgb(185, 29, 29);
+}
+.right-area .middle-sec .box-1 .tags span:nth-of-type(6){
+  background-color: rgb(197, 201, 207);
+}
+
+.right-area .middle-sec .box-2 .res-time-box{
+  background-color: rgb(90, 95, 188);
+  color: white;
+  font-size: 8px;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+.right-area .middle-sec .box-2 .res-area{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-area .middle-sec .box-2 .res-area div{
+  display: flex;
+  align-items: baseline;
+  
+  margin: 8px 0px 11px 0px;
+  border: 1px dashed rgb(90, 95, 188);
+  border-radius: 3px;
+  padding: 3px 5px 1px 5px;
+  background-color: rgb(242, 240, 255);
+}
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(1){
+  color: rgb(28, 185, 180);
+  font-size: 18px;
+  font-weight: 600;
+}
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(2){
+  font-size: 12px;
+  font-weight: 500;
+}
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(3){
+  font-size: 8px;
+  font-weight: 600;
+  margin: 0 29px 0 3px;
+}
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(4){
+  color:rgb(185, 29, 29) ;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(5){
+  font-size: 10px;
+  color: rgb(90, 95, 188);
+}
+
+.right-area .middle-sec .box-2 .res-area div span:nth-of-type(5)::first-letter{
+  font-size: 12px;
+}
+
+.right-area .middle-sec .box-2 .res-area > span:nth-of-type(1){
+  width: 100%;
+  background-color:rgb(197, 201, 207);
+  height: 0.5px;
+}
+
+.right-area .middle-sec .box-2 .res-area > span:nth-of-type(2){
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-weight: 500;
+}
+.right-area .middle-sec .box-2 .res-area > span:nth-of-type(2) span{
+  padding: 0px 4px 0px 3px;
+  color: rgb(185, 29, 29) ;
+}
+
+
+.right-area .middle-sec .box-3:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.right-area .middle-sec .box-3:nth-child(3) .heading-text{
+  margin-bottom: 6px;
+}
+.right-area .middle-sec .box-3 .data-box{
+  border: 1px solid rgb(90, 95, 188);
+  border-radius: 2px;
+  padding: 2px 2px 4px 2px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.right-area .middle-sec .box-3 .data-box span:nth-of-type(1){
+  background-color: rgb(227, 225, 245);
+  padding:  1px 3px;
+  border-radius: 2px;
+  color: rgb(84, 88, 177);
+  font-size: 12px;
+}
+
+.right-area .middle-sec .box-3 .data-box span:nth-of-type(1) span{
+  font-size: 8px;
+  color: rgb(140, 147, 159);
+  padding: 0;
+}
+
+.right-area .middle-sec .box-3 .data-box span:nth-of-type(2){
+  margin: 0 3px 0 4px;
+  color: #000;
+  font-size: 10px;
+}
+
+.right-area .middle-sec .box-3 .data-box span:nth-of-type(3){
+  color: rgb(84, 88, 177);
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.right-area .middle-sec .box-4 .sug-block{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(1){
+  font-size:8px;
+  display: inline-flex;
+  line-height: 9px;
+  margin-top: 5px;
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(1) > span{
+  background-color: rgb(90, 95, 188);
+  color: white;
+  padding: 0 3px;
+  border-radius: 1px;
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(1) > span:nth-of-type(1){
+  margin-right: 22px;
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(1) > span:nth-of-type(2){
+  margin-right: 15px;
+}
+
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(2){
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(2) > span{
+  display: inline-flex;
+  padding: 7px;
+  background-color: rgb(242, 240, 255);
+  border: 1px dashed rgb(90, 95, 188);
+  border-radius: 4px;
+  color: #000;
+  font-weight: 500;
+  width: 30px;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(2) > span > span{
+
+  font-size: 8px;
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(3){
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 2px 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(3) > span:nth-of-type(1){
+  color: rgb(28, 185, 180);
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(3) > span:nth-of-type(2){
+  color: rgb(234, 179, 8);
+}
+.right-area .middle-sec .box-4 .sug-block > div:nth-of-type(3) > span:nth-of-type(3){
+  color: rgb(185, 29, 29);
+}
+
+.right-area .lower-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+
+
+.right-area .lower-sec .compare-box, 
+.right-area .lower-sec .time-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1.5px solid rgb(224, 226, 229);
+    border-radius: 10px;
+    padding: 12px 12px 6px 12px;
+}
+
+.right-area .lower-sec .compare-box > div:nth-of-type(1), 
+.right-area .lower-sec .time-box > div:nth-of-type(1) {
+    display: flex;
+    color: rgb(140, 147, 159);
+    font-size: 13px;
+    font-weight: 600;
+  
+
+    
+}
+
+
+.right-area .lower-sec .compare-box > div:nth-of-type(1) .fi.fi-rs-code-compare, 
+.right-area .lower-sec .time-box > div:nth-of-type(1) .fi-rs-alarm-exclamation {
+    font-size: 15px;
+   
+}
+
+
+.right-area .lower-sec .content{
+  display: flex;
+  align-items: center;
+  margin: 17px 0 0 0 ;
+}
+.right-area .lower-sec .content > span:nth-of-type(1){
+  display: inline-flex;
+  transform: rotate(-90deg);
+  width: 20px;
+  position:relative;
+  bottom: -14px;
+  
+  font-size: 10px;
+
+}
+.right-area .lower-sec .content .percent{
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px 3px 0 0;
+  height: 80%;
+
+  justify-content: space-evenly;
+
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(164, 168, 175);
+  align-items: flex-end;
+}
+.right-area .lower-sec .content .graph{
+  width: 100%;
+
+}
+.right-area .lower-sec .content .graph .time{
+  display: flex;
+  width: 90%;
+  position: relative;
+  justify-content: space-evenly;
+  top: 6px;
+ 
+}
+
+.right-area .lower-sec .content .graph .time > div {
+  position: absolute;
+  height: 5px;
+  width: 90%;
+  background-color: rgb(171, 237, 233);
+  z-index: 0;
+  top: 7px;
+}
+
+.right-area .lower-sec .content .graph .time > span{
+  position: relative;
+  z-index: 1;
+  font-size: 10px;
+  padding: 4px;
+  background-color: rgb(224, 226, 229);
+  color: rgb(111, 117, 129);
+  border-radius: 2px;
+  font-weight: 550;
+}
+.right-area .lower-sec .content .graph .time > .active{
+  background-color: rgb(28, 185, 180);
+  color: white;
+}
+.right-area .lower-sec .content .graph .time > span >span{
+  font-size: 7px;
+}
+
+.right-area .lower-sec .content .graph .bar-area {
+
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: #f9f9f9;
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:not(.actual-bars) {
+  position: absolute;
+  width: 90%;
+  height: 1px; 
+  background-color: #e0e0e0; 
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:nth-child(1) {
+  top: 20%; 
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:nth-child(2) {
+  top: 40%;
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:nth-child(3) {
+  top: 60%;
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:nth-child(4) {
+  top: 80%;
+}
+
+.right-area .lower-sec .content .graph .bar-area > div:nth-child(5) {
+  top: 100%; 
+}
+
+.right-area .lower-sec .content .graph .bar-area .actual-bars {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 100%;
+  z-index: 1; 
+  width: 90%;
+}
+
+.right-area .lower-sec .content .graph .bar-area .actual-bars span {
+  display: inline-block;
+  width: 10px; 
+  background-color: rgb(131, 133, 214);
+  border-radius: 3px 3px 0 0; 
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(1){
+  height: 70%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(2){
+  height: 35%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(3){
+  height: 25%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(4){
+  height: 50%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(5){
+  height: 44%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(6){
+  height: 35%;
+}
+.right-area .lower-sec .content .graph .bar-area .actual-bars span:nth-of-type(7){
+  height: 50%;
+}
+
+.right-area .lower-sec .content .graph .numbers{
+  display: inline-flex;
+  width: 90%;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.right-area .lower-sec .content .graph > div:nth-of-type(4){
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  font-size: 10px;
+  position: relative;
+  right: 17px;
+}
+
+.right-area .lower-sec .time-box > span {
+    margin-top: 7px;
+    font-size: 10px;
+    color: rgb(120, 125, 135); 
+    
+}
+
+.right-area .lower-sec .time-box .scale-box{
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 56px;
+  background-color: rgb(241, 240, 250);
+  width: 100%;
+  padding: 1px 0.7px;
+  border-radius: 2px;
+  position: relative; 
+
+}
+.right-area .lower-sec .time-box .scale-box .scale-num{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 6.5px;
+  width: 1px;
+}
+
+.right-area .lower-sec .time-box .scale-box .scale-num > span{
+  margin-top: 2px;
+  font-size: 8px;
+  font-weight: 600;
+  color: black;
+
+}
+
+.right-area .lower-sec .time-box .scale-box .f{
+  position: relative;
+  left: 9px;
+}
+.right-area .lower-sec .time-box .scale-box .scale-num:last-child > .m{
+  position: relative;
+  right: 3px;
+}
+
+.right-area .lower-sec .time-box .scale-box .scale-num:first-child > .m > span{
+  font-size: 6px;
+}
+
+.right-area .lower-sec .time-box .scale-box .scale-num > .long{
+  height: 14px;
+  width: 2px;
+  background-color: rgb(82, 87, 185);
+  display: block; 
+  border-radius: 2px;
+  
+}
+.right-area .lower-sec .time-box .scale-box .scale-num:last-child{
+  margin-right: 0;
+}
+.right-area .lower-sec .time-box .scale-box > .short{
+  height: 8px;
+  width: 1.21px;
+  background-color:rgb(82, 87, 185);
+  margin-right: 6.5px;
+  border-radius: 2px;
+}
+
+
+.right-area .lower-sec .time-box .scale-box .red-line {
+  transform: rotate(90deg);
+  position: absolute;
+  top: -55px;
+  height: 180px;
+  width: 8px; 
+  border-radius: 2px; 
+  background-color: rgb(220, 38, 38);
+  left: 93px;
+}
+
+.right-area .lower-sec .time-box .scale-box .green-line {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 10px;
+  height: 72px; 
+  width: 8px; 
+  border-radius: 2px; 
+  background-color: rgb(70, 224, 86);
+  left: 39px;
+}
+
+.right-area .lower-sec .time-box .scale-box .blue-line {
+  position: absolute; 
+  top: -4px;
+  height: 65px; 
+  width: 8px;
+  border-radius: 2px; 
+  background-color: blue;
+  left: 80.89px; 
+  opacity: 30%;
+}
+
+.right-area .lower-sec .time-box .beta{
+  margin-top: 20px;
+  height: 50px;
+}
+
+.right-area .lower-sec .time-box .beta .red-line {
+  transform: rotate(90deg);
+  position: absolute;
+  top: -16px;
+  height: 110px;
+  width: 8px; 
+  border-radius: 2px; 
+  background-color: rgb(220, 38, 38);
+  left: 220px;
+}
+
+.right-area .lower-sec .time-box .beta .green-line {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 3.33px;
+  height: 72px; 
+  width: 8px; 
+  border-radius: 2px; 
+  background-color: rgb(70, 224, 86);
+  left: 116px;
+}
+
+.right-area .lower-sec .time-box .beta .blue-line {
+  position: absolute; 
+  top: -4px;
+  height: 61px; 
+  width: 8px;
+  border-radius: 2px; 
+  background-color: blue;
+  left: 158.5px; 
+  opacity: 30%;
+}
+
+.right-area .lower-sec .time-box .beta .f{
+  left: 7px;
+}
+.right-area .lower-sec .time-box .beta > .scale-num:last-child > .m{
+  right: 1px;
+}

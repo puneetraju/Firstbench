@@ -13,3 +13,8 @@ body{
 .main-content .fi{
   margin-right: 6px;
 }
+.app-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
